@@ -12,7 +12,7 @@ HangMan game - a word guessing game - built using Python
 * Easy - 10 Lives, character count between 5-10
 * Normal - 7 Lives, character count between 5-13
 * Hard - 3 Lives, character count between 10-24
-* Nightmare - 1 Lives, character count between 15-24
+* Nightmare - 1 Life, character count between 15-24
 
 ### Word Generation
 Currently I have copied the words from `/usr/share/dict/words` file of a unix system and grouped it by character count to make things easier. Tried using random_word module but it was giving lot of API error. But fixing that will help us get words with different difficulty level basd upon Corpus count too.
